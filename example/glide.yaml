@@ -1,0 +1,3 @@
+package: github.com/felipejfc/go-torrent-finder/example
+import:
+- package: github.com/felipejfc/go-torrent-finder

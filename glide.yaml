@@ -1,0 +1,7 @@
+package: .
+import:
+- package: github.com/yuin/gopher-lua
+- package: github.com/layeh/gopher-json
+- package: github.com/cjoudrey/gluahttp
+- package: github.com/spf13/viper
+- package: github.com/op/go-logging
