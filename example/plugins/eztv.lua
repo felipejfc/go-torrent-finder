@@ -1,4 +1,6 @@
 local http = require("http")
+local scrape = require("scrape")
+
 local PROVIDER_NAME = "eztv.ag"
 
 function get_provider_name()
@@ -10,4 +12,5 @@ function search_torrents(search_query)
   search_query = string.gsub(search_query, " ", "-")
   result = http.get(base_url .. search_query)
   print(result.body)
+  scrape.find_by_tag("bode", "taaag")
 end

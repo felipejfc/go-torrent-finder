@@ -1,12 +1,14 @@
-hash: 7394694a23029110b2562276e5a8893f4c7b9754c9aff3c15ae39dc80a07ec66
-updated: 2016-06-29T18:11:46.26964798-03:00
+hash: dc8b63b43088dd3a958a4af6c120adc440d379dd719dcfb516884df2fcc5390f
+updated: 2016-06-29T14:43:01.05789777-03:00
 imports:
 - name: github.com/BurntSushi/toml
   version: f0aeabca5a127c4078abb8c8d64298b147264b55
 - name: github.com/cjoudrey/gluahttp
   version: 9597a1d57575a0121726a2c50ad54fb74493a296
 - name: github.com/felipejfc/gluahttpscrape
-  version: d3e6d743608ae65d182038942852b79f12a69d20
+  version: 38472043301da3b819f0d3dcde35674d217593d3
+- name: github.com/felipejfc/go-torrent-finder
+  version: d94a7e428d103485bfdc0e3bc0b1d4e807390776
 - name: github.com/fsnotify/fsnotify
   version: a8a77c9133d2d6fd8334f3260d06f60e8d80a5fb
 - name: github.com/hashicorp/hcl
@@ -22,8 +24,6 @@ imports:
   - json/token
 - name: github.com/layeh/gopher-json
   version: e45b65570c08a97b97a459e0cc04a53c1affab95
-- name: github.com/layeh/gopher-luar
-  version: 0cfa37e7d7a39213dd0522d49293689742ba4478
 - name: github.com/magiconair/properties
   version: c265cfa48dda6474e208715ca93e987829f572f8
 - name: github.com/mitchellh/mapstructure
@@ -42,19 +42,12 @@ imports:
   version: afedd3ba45f31d7bf5329c7b5d2aed79f5575ea4
   subpackages:
   - logger
-- name: github.com/yhat/scrape
-  version: 53e4de4d80edac458f4761a5eca90ea9b6272971
 - name: github.com/yuin/gopher-lua
   version: 47f0f792b296190027f38d577f0860e2dad7a777
   subpackages:
   - ast
   - parse
   - pm
-- name: golang.org/x/net
-  version: ef2e00e88c5e0a3569f0bb9df697e9cbc6215fea
-  subpackages:
-  - html
-  - html/atom
 - name: golang.org/x/sys
   version: 62bee037599929a6e9146f29d10dd5208c43507d
   subpackages:
